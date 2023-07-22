@@ -1,4 +1,4 @@
-package hashmap;
+package hashtable;
 
 // Practice4
 // 해시 충돌 해결 - 개방 주소법 (이중 해싱)

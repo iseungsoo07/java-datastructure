@@ -1,4 +1,4 @@
-package hashmap;
+package hashtable;
 
 // Practice1
 // 해시 테이블 배열로 직접 구현

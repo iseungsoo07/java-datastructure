@@ -1,4 +1,4 @@
-package hashmap;
+package hashtable;
 
 // Practice5
 // 해시 충돌 해결 - 분리 연결법
