@@ -5,7 +5,6 @@ package 비선형자료구조.priorityqueue;
 // 나이 순으로 오름차순 또는 내림차순 출력
 
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 // class Person implements Comparable<Person> {
@@ -54,16 +53,9 @@ public class Practice1 {
 
         solution(name, age);
 
-        // PriorityQueue<Person> pq2 = new PriorityQueue<>(
-        //         (Person p1, Person p2) -> p1.age >= p2.age ? 1 : -1
-        // );
-
-        PriorityQueue<Person> pq2 = new PriorityQueue<>(new Comparator<Person>() {
-            @Override
-            public int compare(Person o1, Person o2) {
-                return o1.age >= o2.age ? 1 : -1;
-            }
-        });
+        PriorityQueue<Person> pq2 = new PriorityQueue<>(
+                (Person p1, Person p2) -> p1.age >= p2.age ? 1 : -1
+        );
 
         for (int i = 0; i < name.length; i++) {
             pq2.offer(new Person(name[i], age[i]));

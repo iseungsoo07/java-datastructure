@@ -25,7 +25,7 @@ class Node {
 }
 
 class MyGraphList {
-    int vertices[];
+    int[] vertices;
     Node[] adjList;
     int elemCnt;
 

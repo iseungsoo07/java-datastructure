@@ -25,7 +25,8 @@ public class Exercise3 {
         }
 
         HashSet<Integer> set = new HashSet<>();
-
+        boolean result = search(bst.head, set, target);
+        System.out.println(result);
     }
 
     public static boolean search(Node node, HashSet<Integer> set, int target) {
@@ -61,5 +62,6 @@ public class Exercise3 {
         solution(data, target);
 
         HashSet<Integer> set = new HashSet<>();
+
     }
 }

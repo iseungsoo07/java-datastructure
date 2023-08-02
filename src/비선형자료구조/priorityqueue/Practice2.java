@@ -32,7 +32,9 @@ public class Practice2 {
     }
 
     public static void main(String[] args) {
-        PriorityQueue<Person2> pq = new PriorityQueue<>((Person2 p1, Person2 p2) -> p1.name.compareTo(p2.name));
+        PriorityQueue<Person2> pq = new PriorityQueue<>(
+                (Person2 p1, Person2 p2) -> p1.name.compareTo(p2.name)
+        );
 
         String[] name = {"A", "B", "C", "D", "E"};
         int[] age = {30, 20, 45, 62, 35};

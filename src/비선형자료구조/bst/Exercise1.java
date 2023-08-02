@@ -8,10 +8,10 @@ package 비선형자료구조.bst;
 // 결과: 1
 
 // 입력 트리: 5, 3, 6, 2, 4, null, null, 1
-// N: 3
-// 결과: 3
 
 import java.util.ArrayList;
+// N: 3
+// 결과: 3
 
 class Node2 {
     int key;
